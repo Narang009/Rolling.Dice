@@ -1,0 +1,54 @@
+####   Dice 
+import random
+def dice():
+    x1 = """|---|
+|   | 
+| o |
+|   |
+|___|"""
+    x2 = """|---|
+|o  | 
+|   |
+|  o|
+|___|"""
+    x3 = """|---|
+|o  | 
+| o |
+|  o|
+|___|"""
+    x4 = """|---|
+|o o| 
+|   |
+|o o|
+|___|"""
+    x5 = """|---|
+|o o| 
+| o |
+|o o|
+|___|"""
+    x6 = """|---|
+|ooo| 
+|   |
+|ooo|
+|___|"""
+    t=random.randint(1,6)
+    if t == 1:
+        print (x1)
+        return x1
+    elif t == 2:
+        print (x2)
+        return x2
+    elif t == 3:
+        print (x3)
+        return x3
+    elif t == 4:
+        print (x4)
+        return x4
+    elif t ==5:
+        print (x5)
+        return x5
+    else:
+        print (x6)
+        return x6
+dice()
+
