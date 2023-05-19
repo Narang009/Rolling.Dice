@@ -50,5 +50,5 @@ def dice():
     else:
         print (x6)
         return x6
-dice()
+dice()                        #function call
 
